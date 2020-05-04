@@ -1,0 +1,22 @@
+<view class="png"/>
+
+
+<view class="cu-card article">
+    <view bindtap="chooseProject" class="cu-item shadow" a:for="{{projects}}" a:for-index="index" a:for-item="item">
+        <view class="title">
+            <view class="flex-sub text-cut text-xl text-shadow text-{{item.nameColor}}">{{item.name}}</view>
+        </view>
+        <view class="content">
+            <view class="desc">
+                <view class="text-content">{{item.desc}}</view>
+            </view>
+        </view>
+        <view class="text-gray margin-right" style="float: right;">
+            {{item.createTime}}
+        </view>
+    </view>
+</view>
+
+<view class="round-click shadow-blur bg-gradual-green" bindtap="addProject">
+    <text class="cuIcon-add text-white"/>
+</view>

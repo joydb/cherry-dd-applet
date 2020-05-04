@@ -1,0 +1,25 @@
+.round-click {
+    border-radius: 100%;
+    position: fixed;
+    bottom: 90rpx;
+    right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9;
+}
+
+.round-click text {
+    font-size: 50rpx;
+    width: 100rpx;
+    height: 100rpx;
+    line-height: 100rpx;
+    text-align: center;
+    border-radius: 100%;
+}
+
+.png{
+background:url("/images/index.png") no-repeat;
+height: 235rpx;
+background-size:100%
+}

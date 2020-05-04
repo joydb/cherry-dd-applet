@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/project/project",
+    "pages/todo/todo",
+    "pages/me/me"
+  ],
+  "window": {
+    "defaultTitle": "小樱桃",
+    "pullRefresh": true
+  },
+  "tabBar": {
+    "textColor": "#707070",
+    "selectedColor": "#ea725e",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "pagePath": "pages/todo/todo",
+        "icon":"assets/icons/todo.png",
+        "activeIcon":"assets/icons/todo-active.png",
+        "name": "待办"
+      },
+      {
+        "pagePath": "pages/project/project",
+        "icon":"assets/icons/project.png",
+        "activeIcon":"assets/icons/project-active.png",
+        "name": "项目"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "icon":"assets/icons/me.png",
+        "activeIcon":"assets/icons/me-active.png",
+        "name": "我的"
+      }
+    ]
+  }
+}
