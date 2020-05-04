@@ -5,22 +5,24 @@
     right: 40rpx;
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: center;
     z-index: 9;
 }
 
 .round-click text {
-    font-size: 55rpx;
-    width: 80rpx;
-    height: 80rpx;
-    line-height: 80rpx;
+    font-size: 60rpx;
+    width: 90rpx;
+    height: 90rpx;
+    line-height: 90rpx;
+    align-content: center;
     text-align: center;
     border-radius: 100%;
 }
 
 /* 背景图片 */
-.project-bgk{
+.png{
 background:url("/assets/imgs/index.png") no-repeat;
-height: 450rpx;
+height: 200px;
 background-size:100%
 }
