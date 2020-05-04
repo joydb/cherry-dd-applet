@@ -1,8 +1,8 @@
 .round-click {
     border-radius: 100%;
     position: fixed;
-    bottom: 90rpx;
-    right: 50px;
+    bottom: 40rpx;
+    right: 40rpx;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,16 +10,17 @@
 }
 
 .round-click text {
-    font-size: 50rpx;
-    width: 100rpx;
-    height: 100rpx;
-    line-height: 100rpx;
+    font-size: 55rpx;
+    width: 80rpx;
+    height: 80rpx;
+    line-height: 80rpx;
     text-align: center;
     border-radius: 100%;
 }
 
-.png{
-background:url("/images/index.png") no-repeat;
-height: 235rpx;
+/* 背景图片 */
+.project-bgk{
+background:url("/assets/imgs/index.png") no-repeat;
+height: 450rpx;
 background-size:100%
 }

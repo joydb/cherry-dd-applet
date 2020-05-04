@@ -1,6 +1,5 @@
 <view class="png"/>
 
-
 <view class="cu-card article">
     <view bindtap="chooseProject" class="cu-item shadow" a:for="{{projects}}" a:for-index="index" a:for-item="item">
         <view class="title">

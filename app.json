@@ -6,7 +6,7 @@
   ],
   "window": {
     "defaultTitle": "小樱桃",
-    "pullRefresh": true
+    "pullRefresh": false
   },
   "tabBar": {
     "textColor": "#707070",
